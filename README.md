@@ -10,8 +10,8 @@ CHIRP rasters & stationary rain gauge data
 **Normal**
 
 - Data cleaning parameters:
-  - `threshold = 400mm` (when remonving outliers, diff between CHIRP and station)
-  - unbiasing CHIRP data with ratio `r = mean(station) + c / mean(CHIRP) + c` with `c = 1`
+  - `threshold = 400mm` (removing outliers with |CHIRP - station| > threshold)
+  - unbiasing CHIRP data with ratio `r = (mean(station) + c) / (mean(CHIRP) + c)` with `c = 1`
   - Computing residuals `res = CHIRP_U - stations`
 - Kriging parameters:
   - Exponential variogram
@@ -58,5 +58,38 @@ LST Modis rasters + stationary data
   - Spherical variogram
   - no neighbours
   - no Gaussian smoothing
+
+
+## Countries
+
+**Mozambique**
+
+- Rainfall (exponential): 
+  - [1.0, 0.7032	0.4505] - dry season (June - September)
+  - [1.0, 3.6629, 0.2701] - wet season (October - May)
+- TDA (spherical):
+  - [1.0, 5.0386, 0.3083]
+- TNA (spherical):
+  - [1.0, 1.8506, 0.4516]
+
+**Namibia**
+
+- Rainfall (exponential): 
+  - [1.0, 1.3338	0.6117]
+
+
+**Zimbabwe**
+
+- Rainfall (exponential): 
+  - [1.0, 1.8122,	0.5763]
+
+**Cuba**
+
+RESAMPLING: Resampling 5km rasters to 1km rasters
+- Rainfall (exponential): 
+  - [1.0, 3.6624, 0.7885] - dry season (June - September)
+  - [1.0, 1.0379, 0.5862] - wet season (October - May)
+
+
 
 
