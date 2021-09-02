@@ -90,6 +90,12 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
   - [1.0, 3.6624, 0.7885] - dry season (June - September)
   - [1.0, 1.0379, 0.5862] - wet season (October - May)
 
+**Sri Lanka**
+
+- Rainfall (exponential): 
+- - [1.0, 0.1197, 0.2218] - dry months (2,3,6,7,8)
+  - [1.0, 0.2629, 0.2344] - wet months (1,4,5,9,10,11,12)
+
 
 
 
