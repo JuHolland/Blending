@@ -97,6 +97,7 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
   - [1.0, 0.2629, 0.2344] - wet months (1,4,5,9,10,11,12)
 - TDA (exponential): 
   - [1.0, 1.566, 0.4017] 
-
+- TNA (exponential)
+  - [1.0 1.3225 0.5025]
 
 
