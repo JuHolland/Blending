@@ -87,8 +87,8 @@ LST Modis rasters + stationary data
 
 RESAMPLING: Resampling 5km rasters to 1km rasters
 - Rainfall (exponential): 
-  - [1.0, 3.6624, 0.7885] - dry season (June - September)
-  - [1.0, 1.0379, 0.5862] - wet season (October - May)
+  - [1.0, 0.2790, 0.5] - dry season (April - November)
+  - [1.0, 0.3348, 0.2] - wet season (December - March)
 
 **Sri Lanka**
 
