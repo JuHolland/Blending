@@ -89,15 +89,20 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
 - Rainfall (exponential): (EYE FIT)
   - [1.0, 0.2790, 0.5] - dry season (April - November)
   - [1.0, 0.3348, 0.2] - wet season (December - March)
+  - LTA computed with 1991-2020 data
 
 **Sri Lanka**
 
 - Rainfall (exponential): 
   - [1.0, 0.1197, 0.2218] - dry months (2,3,6,7,8)
   - [1.0, 0.2629, 0.2344] - wet months (1,4,5,9,10,11,12)
+  - LTA computed with 2016-2020 data
 - TDA (exponential): 
   - [1.0, 1.566, 0.4017] 
+  - LTA computed with 2016-2020 data
 - TNA (exponential)
   - [1.0, 1.3283, 0.4756]
+  - LTA computed with 2016-2020 data
+
 
 
