@@ -105,4 +105,13 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
   - LTA computed with 2016-2020 data
 
 
+## degree-km conversion
+
+- Mozambique: 109.5
+- Namibia:    106.5
+- Zimbabwe:   108
+- Cuba:       107.5
+- SriLanka:   111
+
+
 
