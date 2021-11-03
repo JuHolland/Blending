@@ -111,7 +111,7 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
 - Namibia:    106.5
 - Zimbabwe:   108
 - Cuba:       107.5
-- SriLanka:   111
+- Sri Lanka:   111
 
 
 
