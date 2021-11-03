@@ -22,7 +22,7 @@ CHIRP rasters & stationary rain gauge data
 **LTA**
 
 - Data cleaning parameters:
-  - Ordinary Linear regression (global for [April - October] dry season)
+  - Ordinary Linear regression (global for dry season)
   - Use OLS to compute residuals
 - Kriging parameters:
   - Exponential variogram
