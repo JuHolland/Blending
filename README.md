@@ -75,7 +75,7 @@ LST Modis rasters + stationary data
 **Namibia**
 
 - Rainfall (exponential): 
-  - [1.0, 1.3338	0.6117]
+  - [1.0, 1.3166	0.6115]
 
 
 **Zimbabwe**
