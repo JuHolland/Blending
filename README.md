@@ -86,7 +86,7 @@ LST Modis rasters + stationary data
 **Cuba**
 
 RESAMPLING: Resampling 5km rasters to 1km rasters
-- Rainfall (exponential): 
+- Rainfall (exponential): (EYE FIT)
   - [1.0, 0.2790, 0.5] - dry season (April - November)
   - [1.0, 0.3348, 0.2] - wet season (December - March)
 
@@ -98,6 +98,6 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
 - TDA (exponential): 
   - [1.0, 1.566, 0.4017] 
 - TNA (exponential)
-  - [1.0 1.3225 0.5025]
+  - [1.0, 1.3283, 0.4756]
 
 
