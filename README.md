@@ -87,8 +87,8 @@ LST Modis rasters + stationary data
 
 RESAMPLING: Resampling 5km rasters to 1km rasters
 - Rainfall (exponential): (EYE FIT)
-  - [1.0, 0.2790, 0.2] - dry season (April - November)
-  - [1.0, 0.3348, 0.2] - wet season (December - March)
+  - [1.0, 0.558, 0.3] - dry season (April - November)
+  - [1.0, 0.42, 0.3] - wet season (December - March)
   - LTA computed with 1991-2020 data
 
 **Sri Lanka**
