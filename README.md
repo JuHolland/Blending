@@ -10,7 +10,7 @@ CHIRP rasters & stationary rain gauge data
 **Normal**
 
 - Data cleaning parameters:
-  - `threshold = 400mm` (removing outliers with |CHIRP - station| > threshold)
+  - `threshold = 400mm` (removing outliers with |CHIRP - station| > threshold) --> NOT ON OPERATIONAL SIDE
   - unbiasing CHIRP data with ratio `r = (mean(station) + c) / (mean(CHIRP) + c)` with `c = 1`
   - Computing residuals `res = CHIRP_U - stations`
 - Kriging parameters:
@@ -89,7 +89,7 @@ RESAMPLING: Resampling 5km rasters to 1km rasters
 - Rainfall (exponential): (EYE FIT)
   - [1.0, 0.335, 0.3] - dry season (April - November)
   - [1.0, 0.419, 0.3] - wet season (December - March)
-  - LTA computed with 1991-2020 data
+  - LTA (computed by Teo)
 
 **Sri Lanka**
 
