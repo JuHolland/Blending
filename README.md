@@ -81,7 +81,9 @@ LST Modis rasters + stationary data
 **Zimbabwe**
 
 - Rainfall (exponential): 
-  - [1.0, 1.8122,	0.5763]
+  - [1.0, 0.5211, 0.2152] - dry months [5,6,7,8,9,10,11,12]
+  - [1.0, 1.1067, 0.4086] - wet months [1,2,3,4]
+
 
 **Cuba**
 
